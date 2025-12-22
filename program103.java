@@ -1,0 +1,25 @@
+//OOP Design
+class ArrayX
+{
+    public int Arr[];
+    public int iSize;
+    
+    public ArrayX(int iNo)
+    {   
+        System.out.println("Inside Constructor");
+        iSize=iNo;
+        Arr=new int[iSize];
+    }
+
+    
+}
+
+class program103 {
+
+    public static void main(String[] args) 
+    {
+        ArrayX aobj1=new ArrayX(5);
+        ArrayX aobj2=new ArrayX(7);
+    }
+    
+}
